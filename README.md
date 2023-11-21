@@ -2,14 +2,16 @@
 <img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=Monsieur9Bre99.Monsieur9Bre99" />
 
 <h1 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi1+There!+👋;+I'm+Bre+Root!;" />
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Bre+Root!;" />
 </h1>
 
 <br/>
 - 👀 I’m interested in le développement informatique et la cybersécurité
 <br/>
+
  
 <div align="center"> 
+<br/>
   <a href="mailto:sbre@myges.fr">
     <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red" />
   </a>
@@ -22,14 +24,13 @@
  
 <h2 align="center">⚒️ Languages-Frameworks-Tools ⚒️</h2>
 <br/>
-- 🌱 I’m currently learning les langages, framework & tools
 <div align="center">
     <!-- Langages -->
-    <img src="https://skillicons.dev/icons?i=html,css,javascript,python,typescript,php,cs" />
+    <img src="https://skillicons.dev/icons?i=html,css,javascript,python,typescript,php,sql,cs" />
     <!-- Frameworks -->
     <img src="https://skillicons.dev/icons?i=nodejs,angular,symfony,bootstrap" />
     <!-- Outils -->
-    <img src="https://skillicons.dev/icons?i=vscode,github,figma,tailwind,gitlab,codepen,git,linux,powershell,docker,wordpress,postgres,mysql,sqlserver,postman" /><br>
+    <img src="https://skillicons.dev/icons?i=vscode,github,figma,tailwind,gitlab,codepen,git,linux,powershell,docker,wordpress,postgres,mysql,postman" /><br>
 </div>
 
 <br/>
