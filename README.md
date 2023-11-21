@@ -14,7 +14,7 @@
 <br/>
   <a href="mailto:sbre@myges.fr">
     <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=blue" />
-  </a>
+  </a> &nbsp;
   <a href="https://tinyurl.com/sanbre/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
   </a>
@@ -22,7 +22,7 @@
 
  <hr/>
  
-<h2 align="center">⚒️ Languages-Frameworks-Tools ⚒️</h2>
+<h2 align="center">⚒️ My Universe ⚒️</h2>
 <br/>
 <div align="center">
     <!-- Langages -->
