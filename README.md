@@ -6,14 +6,14 @@
 </h1>
 
 <br/>
-- 👀 I’m interested in le développement informatique et la cybersécurité
+    I've been passionate about computers and new technologies since I was very young, so I decided to devote myself fully to them by pursuing my studies in a field more in line with my career aspirations, namely working as a web developer / DevOps.
 <br/>
 
  
 <div align="center"> 
 <br/>
   <a href="mailto:sbre@myges.fr">
-    <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red" />
+    <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=blue" />
   </a>
   <a href="https://tinyurl.com/sanbre/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
@@ -26,7 +26,7 @@
 <br/>
 <div align="center">
     <!-- Langages -->
-    <img src="https://skillicons.dev/icons?i=html,css,javascript,python,typescript,php,sql,cs" />
+    <img src="https://skillicons.dev/icons?i=html,css,sass,javascript,python,php,md,cs" />
     <!-- Frameworks -->
     <img src="https://skillicons.dev/icons?i=nodejs,angular,symfony,bootstrap" />
     <!-- Outils -->
