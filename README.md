@@ -8,14 +8,13 @@
 <br/>
     I've been passionate about computers and new technologies since I was very young, so I decided to devote myself fully to them by pursuing my studies in a field more in line with my career aspirations, namely working as a web developer / DevOps.
 <br/>
-
  
 <div align="center"> 
 <br/>
-  <a href="mailto:sbre@myges.fr">
+  <a href="mailto:sbre@myges.fr" style="text-decoration: none;">
     <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=blue" />
   </a> &nbsp;
-  <a href="https://tinyurl.com/sanbre/" target="_blank">
+  <a href="https://tinyurl.com/sanbre/" target="_blank" style="text-decoration: none;">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
   </a>
 </div>
