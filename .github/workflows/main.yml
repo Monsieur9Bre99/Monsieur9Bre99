@@ -4,56 +4,80 @@ name: Generate Snake
 # Controls when the action will run.
 on:
   schedule:
-    # every 12 hours
+    # Schedule the workflow to run every 12 hours
     - cron: "0 */12 * * *"
-# This command allows us to run the Action automatically from the Actions tab.
-  workflow_dispatch:
-# Also run on every push on the main/master branch
+  workflow_dispatch: # Allows the workflow to be manually triggered
   push:
     branches:
+    # Run the workflow on push events to the main and master branches
     - main
     - master
 
-# The sequence of runs in this workflow:
 jobs:
-  # This workflow contains a single job called "build"
   build:
-    # The type of runner that the job will run on
+    # The job will run on the latest version of Ubuntu
     runs-on: ubuntu-latest
     steps:
-    # Steps represent a sequence of tasks that will be executed as part of the job
+      # Step to checkout the repository
       - name: Checkout repo
         uses: actions/checkout@v2
 
+      # Step to set up Python
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          # Specify the Python version to use
+          python-version: '3.x'
+
+      # Step to install dependencies
+      - name: Install dependencies
+        run: |
+          # Upgrade pip and install requests library
+          python -m pip install --upgrade pip
+          pip install requests
+
+      # Step to generate the snake files in the './dist/' directory
       - name: Generate the snake files in './dist/'
         uses: Platane/snk@v3
         id: snake-gif
         with:
+          # Specify the GitHub username
           github_user_name: Monsieur9Bre99
+          # Specify the output files and their paths
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
             dist/github-contribution-grid-snake.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
         env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Use the GitHub token stored in secrets for authentication
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Show build status
-        run: git status
-      
+      # Step to show the generated files
+      - name: Show generated files
+        run: ls -l dist
+
+      # Step to push the new files to the output branch
       - name: Push new files to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-            target_branch: output
-            build_dir: dist
-            commit_message: Update snake animations
+          # Specify the target branch and build directory
+          target_branch: output
+          build_dir: dist
+          # Commit message for the update
+          commit_message: Update snake animations
         env:
-                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-                  
+          # Use the GitHub token stored in secrets for authentication
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Step to commit and push changes if there are any
       - name: Commit and push if changed
         run: |
-            git diff
-            git config --global user.email "sbre@myges.fr.noreply.github.com"
-            git config --global user.name "Monsieur9Bre99"
-            git commit -am "Updated snake animation" || exit 0
-            git push
-            
+          # Configure Git user email and name
+          git config --global user.email "sbre@myges.fr.noreply.github.com"
+          git config --global user.name "Monsieur9Bre99"
+          # Show the differences
+          git diff
+          # Commit changes with a message if there are any, otherwise exit
+          git commit -am "Updated snake animation" || exit 0
+          # Push the changes
+          git push
