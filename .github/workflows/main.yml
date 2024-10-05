@@ -11,7 +11,8 @@ on:
     branches:
     # Run the workflow on push events to the main and master branches
     - main
-    
+    - master
+
 jobs:
   build:
     # The job will run on the latest version of Ubuntu
@@ -49,7 +50,7 @@ jobs:
             dist/github-contribution-grid-snake.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
         env:
           # Use the GitHub token stored in secrets for authentication
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SUP_GITHUB_TOKEN: ${{ secrets.SUP_GITHUB_TOKEN }}
 
       # Step to show the generated files
       - name: Show generated files
@@ -66,7 +67,7 @@ jobs:
           commit_message: Update snake animations
         env:
           # Use the GitHub token stored in secrets for authentication
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SUP_GITHUB_TOKEN: ${{ secrets.SUP_GITHUB_TOKEN }}
 
       # Step to commit and push changes if there are any
       - name: Commit and push if changed
