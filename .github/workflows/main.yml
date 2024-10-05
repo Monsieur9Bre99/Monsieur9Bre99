@@ -11,8 +11,7 @@ on:
     branches:
     # Run the workflow on push events to the main and master branches
     - main
-    - master
-
+    
 jobs:
   build:
     # The job will run on the latest version of Ubuntu
