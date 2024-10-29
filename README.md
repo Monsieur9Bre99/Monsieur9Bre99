@@ -10,9 +10,9 @@
  
 <div align="center"> 
 <br/>
-  <a href="mailto:sbre@myges.fr" style="text-decoration: none;">
+<!--   <a href="mailto:" style="text-decoration: none;">
     <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=blue" />
-  </a> &nbsp;
+  </a> &nbsp; -->
   <a href="https://tinyurl.com/sanbre/" target="_blank" style="text-decoration: none;">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
   </a>
