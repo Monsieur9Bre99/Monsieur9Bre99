@@ -6,8 +6,7 @@
 </h1>
 
 <br/>
-    I've been passionate about computers and new technologies since I was very young, so I decided to devote myself fully to them by pursuing my studies in a field more in line with my career aspirations, namely working as a web developer / DevOps.
-<br/>
+    Passionate about computers and new technologies from an early age, I chose to devote myself fully to them by pursuing studies in a field that corresponds to my career goals.
  
 <div align="center"> 
 <br/>
