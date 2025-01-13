@@ -41,7 +41,69 @@
   
   <br/><br/><br/>
 </div>
+<hr/>
 
+
+# ❓ What I can do now
+```
+## As an IT student
+
+- 📚 Take courses in computer science and software development
+- 💻 Participate in academic projects and hackathons
+- 🤝 Collaborate with classmates on group projects
+- 🔄 Stay updated with new technologies while focusing on current ones
+
+## As a Developer / DevOps
+
+- 🌐 Develop web applications with HTML, CSS, JavaScript, Python, C#, and PHP
+- 🛠️ Use frameworks and tools like Angular, Symfony, Bootstrap, Tailwind, React, etc.
+- 🗄️ Work with databases like MySQL and PostgreSQL
+- 🖥️ Use development tools like VSCode, Git, and Docker
+- ⚙️ Configure and manage development environments with Docker
+- 🚀 Automate deployments with CI/CD pipelines
+- 📈 Monitor and maintain Linux servers
+
+## As a Human
+
+- 🌍 Participate in ecological and humanitarian causes
+- 🤲 Volunteer
+- 🎵 Discover new music, artists, and universes
+- 📚 Read comics and books
+- 🎮 Play video games like Strinova
+- 👫 Engage in social and community activities
+```
+
+# ❓ What I'd like to do in the future
+
+```
+## As an IT student
+
+- 🎓 Obtain a degree in computer science
+- 🏢 Participate in internships and professional training programs
+- 📖 Learn new technologies and programming languages
+- 🔄 Continue being an "eternal learner"
+
+## As a Developer / DevOps
+
+- ⚛️ Learn and use modern JavaScript frameworks like React and Vue.js
+- 📱 Develop mobile applications with Flutter, React Native, or .NET MAUI
+- 🌐 Contribute to open source projects
+- 🤖 Explore artificial intelligence and machine learning
+- 🛠️ Master configuration management tools like Ansible and Terraform
+- ☁️ Work with cloud platforms like AWS, Azure, or Google Cloud
+- 🔒 Implement DevSecOps security practices
+- 🤖 Further automate development and deployment processes
+
+## As a Human
+
+- ✈️ Travel and discover new cultures
+- 🌐 Learn new languages
+- 🤲 Participate in volunteer activities
+- 🗣️ Develop leadership and communication skills
+- ❤ Learn to love yourself and give more love
+- 🎵 Continue discovering new music and artists
+
+```
 <hr/>
 
 <h2 align="center">⚡ Stats ⚡</h2>
@@ -51,7 +113,6 @@
 <br>
   <img width=325 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Monsieur9Bre99&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" alt="top langs" />
 </div>
-
 
 
 <br/><br/>
