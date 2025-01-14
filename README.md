@@ -69,7 +69,7 @@
 - 🤲 Volunteer
 - 🎵 Discover new music, artists, and universes
 - 📚 Read comics and books
-- 🎮 Play video games like Strinova
+- 🎮 Play video games like GTA, COD, etc.
 - 👫 Engage in social and community activities
 ```
 
